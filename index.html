@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharmesh Adith Varma Penmetsa - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="gators_logo.jpg" alt="Go Gators" style="height: 40px; vertical-align: middle;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content animate-on-scroll">
+                <div
+                    style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; opacity: 0.5;">
+                    <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_w51pcehl.json"
+                        background="transparent" speed="1" style="width: 600px; height: 600px;" loop
+                        autoplay></lottie-player>
+                </div>
+                <div class="profile-img-container" style="margin-bottom: 2rem;">
+                    <img src="profile.jpg" alt="Dharmesh Adith Varma Penmetsa"
+                        style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                </div>
+                <h1>Dharmesh Adith Varma Penmetsa</h1>
+                <p class="subtitle">Developer. Creator. Problem Solver.</p>
+                <div class="code-wrapper"
+                    style="margin-bottom: 2rem; min-height: 60px; display: flex; justify-content: center;">
+                    <div class="code-badge">
+                        <span class="keyword">const</span> <span class="variable">info</span> <span
+                            class="operator">=</span> <span class="string" id="typewriter-text"></span><span
+                            class="cursor">|</span>
+                    </div>
+                </div>
+                <a href="resume.pdf" target="_blank" class="cta-btn">View Resume</a>
+            </div>
+        </section>
+
+        <!-- Marquee Animation -->
+        <div class="marquee-container">
+            <div class="marquee-content">
+                <span>INNOVATE • CREATE • DEPLOY • SCALE • OPTIMIZE • INNOVATE • CREATE • DEPLOY • SCALE • OPTIMIZE
+                    •</span>
+                <span>INNOVATE • CREATE • DEPLOY • SCALE • OPTIMIZE • INNOVATE • CREATE • DEPLOY • SCALE • OPTIMIZE
+                    •</span>
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="container">
+                <div class="animate-on-scroll">
+                    <h2>About Me</h2>
+                    <p style="max-width: 700px; margin-bottom: 3rem;">Passionate developer specializing in building
+                        scalable, high-performance web applications. Master's in Computer Science from University of
+                        Florida.</p>
+                </div>
+
+                <div class="bento-grid">
+                    <!-- Education Card -->
+                    <div class="bento-card animate-on-scroll">
+                        <h3>Education</h3>
+                        <h4>University of Florida</h4>
+                        <p class="date">Master’s in Computer Science</p>
+                        <p class="date">Aug 2023 – Dec 2024 | GPA: 3.50</p>
+                        <p style="font-size: 0.9rem; margin-top: 1rem;">Coursework: Advanced Data Structures,
+                            Human-Computer Interaction, Software Engineering, Math for Intelligent Systems, Distributed
+                            Operating System Principles, Ux Design, Computer Networks, Cloud Computer Systems
+                            Management, 3D Audio.</p>
+                    </div>
+
+                    <!-- Skills Card -->
+                    <div class="bento-card animate-on-scroll" style="grid-column: span 2;">
+                        <h3>Skills</h3>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="margin-bottom: 0.5rem;">Languages</h4>
+                            <div>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Scala</span>
+                                <span class="skill-tag">Go</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 1.5rem;">
+                            <h4 style="margin-bottom: 0.5rem;">Technologies</h4>
+                            <div>
+                                <span class="skill-tag">Kafka</span>
+                                <span class="skill-tag">Spark</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Kubernetes</span>
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="animate-on-scroll">Experience</h2>
+
+                <!-- Horizontal Scroller Container -->
+                <div class="carousel-container">
+                    <button class="nav-arrow prev" aria-label="Previous Slide">❮</button>
+                    <div class="experience-scroller animate-on-scroll">
+                        <!-- Job 1 -->
+                        <div class="experience-card-static" data-role="Full Stack Developer"
+                            data-company="CNT Infotech Corporation - (Delaware Department of Correction)"
+                            data-date="April 2025 – Present">
+                            <h3>Full Stack Developer</h3>
+                            <h4>CNT Infotech Corporation - (Delaware Department of Correction)</h4>
+                            <p class="date">April 2025 – Present</p>
+                            <div class="hidden-details">
+                                <ul>
+                                    <li>Built dynamic UIs and RESTful APIs using HTML/CSS, JavaScript, Thymeleaf, and
+                                        Spring Boot, boosting user engagement by 25%.</li>
+                                    <li>Led the successful migration of a legacy monolithic application to a
+                                        microservices-based architecture, reducing deployment time by 40%.</li>
+                                    <li>Oversaw the software development lifecycle from planning to deployment, ensuring
+                                        99.9% uptime and improving delivery speed by 30%.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Job 2 -->
+                        <div class="experience-card-static" data-role="Software Development Engineer"
+                            data-company="NRich Enterprise Solutions" data-date="Feb 2025 – April 2025">
+                            <h3>Software Development Engineer</h3>
+                            <h4>NRich Enterprise Solutions</h4>
+                            <p class="date">Feb 2025 – April 2025</p>
+                            <div class="hidden-details">
+                                <ul>
+                                    <li>Re-engineered employee portal with Java Spring Boot and React, improving
+                                        scalability by 40%.</li>
+                                    <li>Resolved critical issues in Provider modules, reducing support tickets.</li>
+                                    <li>Accelerated feature delivery by 30% in Agile sprints.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Job 3 -->
+                        <div class="experience-card-static" data-role="Software Development Engineer"
+                            data-company="Quantum Pulse Consulting" data-date="Oct 2024 – Dec 2024">
+                            <h3>Software Development Engineer</h3>
+                            <h4>Quantum Pulse Consulting</h4>
+                            <p class="date">Oct 2024 – Dec 2024</p>
+                            <div class="hidden-details">
+                                <ul>
+                                    <li>Enhanced Client employee portal with React, Python, and PostgreSQL.</li>
+                                    <li>Optimized backend to deliver ~40–60 ms response time per page.</li>
+                                    <li>Added unit tests ensuring 99.9% data consistency.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Job 4 -->
+                        <div class="experience-card-static" data-role="Software Development Engineer"
+                            data-company="Deloitte Haskins and Sells LLP" data-date="Jun 2022 - Nov 2022">
+                            <h3>Software Development Engineer</h3>
+                            <h4>Deloitte Haskins and Sells LLP</h4>
+                            <p class="date">Jun 2022 - Nov 2022</p>
+                            <div class="hidden-details">
+                                <ul>
+                                    <li>Implemented ML algorithms for fraud detection, improving accuracy by 20%.</li>
+                                    <li>Designed scalable ETL processes using Apache Spark and AWS S3.</li>
+                                    <li>Created Power BI dashboards saving 10% in stakeholder costs.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Job 5 -->
+                        <div class="experience-card-static" data-role="Software Development Engineer"
+                            data-company="Zero Deficiency Pvt Ltd" data-date="Jun 2020 - Jun 2022">
+                            <h3>Software Development Engineer</h3>
+                            <h4>Zero Deficiency Pvt Ltd</h4>
+                            <p class="date">Jun 2020 - Jun 2022</p>
+                            <div class="hidden-details">
+                                <ul>
+                                    <li>Designed and developed scalable backend services using Java, Spring Boot, MySQL.
+                                    </li>
+                                    <li>Engineered a Kafka-based data streaming architecture to deliver personalized
+                                        recommendations.</li>
+                                    <li>Containerized the microservices using Docker and implemented CI/CD pipelines
+                                        with Jenkins.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="nav-arrow next" aria-label="Next Slide">❯</button>
+                </div>
+                <div class="carousel-dots"></div>
+            </div>
+        </section>
+
+        <!-- Experience Modal -->
+        <div id="experience-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3 id="modal-role">Role</h3>
+                <h4 id="modal-company">Company</h4>
+                <p id="modal-date" class="date">Date</p>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="animate-on-scroll">Projects</h2>
+
+                <div class="experience-scroller-container">
+                    <button class="nav-arrow prev project-prev" aria-label="Previous projects">❮</button>
+
+                    <div class="project-scroller">
+                        <!-- Project 1 -->
+                        <div class="experience-card-static animate-on-scroll" data-role="Immersive Meditation App"
+                            data-company="3D spatial audio engine with personalized HRTF."
+                            data-date="Python, Audio Processing">
+                            <h3>Immersive Meditation App</h3>
+                            <p>3D spatial audio engine with personalized HRTF.</p>
+                            <div class="hidden-details">
+                                <p>Developed a 3D spatial audio engine using Python and HRTF (Head-Related Transfer
+                                    Function)
+                                    personalization algorithms. The system creates an immersive auditory environment for
+                                    meditation, adjusting sound sources in real-time based on user head tracking.</p>
+                                <ul>
+                                    <li>Implemented HRTF for personalized 3D audio rendering.</li>
+                                    <li>Integrated real-time head tracking for dynamic sound positioning.</li>
+                                    <li>Optimized audio processing for low-latency performance.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Project 2 -->
+                        <div class="experience-card-static animate-on-scroll" data-role="Hide and Speak"
+                            data-company="AI system with GPT-4 & LangChain." data-date="Python, GPT-4">
+                            <h3>Hide and Speak</h3>
+                            <p>AI system with GPT-4 & LangChain.</p>
+                            <div class="hidden-details">
+                                <p>Built an interactive AI system using GPT-4 and LangChain that allows users to "hide"
+                                    secret
+                                    messages within normal conversation text. The AI acts as a game master, guiding
+                                    players
+                                    to discover the hidden information through natural language interaction.</p>
+                                <ul>
+                                    <li>Utilized LangChain for managing LLM context and prompts.</li>
+                                    <li>Implemented custom prompt engineering for game logic.</li>
+                                    <li>Designed a user-friendly web interface for interaction.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="experience-card-static animate-on-scroll" data-role="Reddit Clone Engine"
+                            data-company="Scalable backend with Go & Gin." data-date="Go, Gin, PostgreSQL">
+                            <h3>Reddit Clone Engine</h3>
+                            <p>Scalable backend with Go & Gin.</p>
+                            <div class="hidden-details">
+                                <p>Engineered a high-performance backend for a social news aggregation platform similar
+                                    to
+                                    Reddit. Built with Go and the Gin framework, focusing on scalability, concurrency,
+                                    and
+                                    efficient data handling.</p>
+                                <ul>
+                                    <li>Designed RESTful APIs for user authentication, posts, and comments.</li>
+                                    <li>Implemented concurrent processing using Go routines.</li>
+                                    <li>Optimized database queries for high-traffic scenarios.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="experience-card-static animate-on-scroll" data-role="Rating Generation"
+                            data-company="NLP & Sentiment Analysis." data-date="Python, NLP">
+                            <h3>Rating Generation</h3>
+                            <p>NLP & Sentiment Analysis.</p>
+                            <div class="hidden-details">
+                                <p>Developed an NLP-based system to automatically generate star ratings from text
+                                    reviews.
+                                    Used sentiment analysis techniques to analyze customer feedback and predict the
+                                    corresponding numerical rating with high accuracy.</p>
+                                <ul>
+                                    <li>Trained sentiment analysis models on large review datasets.</li>
+                                    <li>Implemented text preprocessing and feature extraction pipelines.</li>
+                                    <li>Achieved high accuracy in rating prediction.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Project 5 -->
+                        <div class="experience-card-static animate-on-scroll" data-role="Wi-Fi File Transfer"
+                            data-company="P2P Architecture with Java Spring." data-date="Java, Spring">
+                            <h3>Wi-Fi File Transfer</h3>
+                            <p>P2P Architecture with Java Spring.</p>
+                            <div class="hidden-details">
+                                <p>Created a peer-to-peer file transfer application using Java Spring. Allows devices on
+                                    the
+                                    same Wi-Fi network to share files directly without a central server or internet
+                                    connection.</p>
+                                <ul>
+                                    <li>Implemented P2P discovery and connection protocols.</li>
+                                    <li>Ensured secure and fast file transmission over local network.</li>
+                                    <li>Built a cross-platform compatible Java application.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="nav-arrow next project-next" aria-label="Next projects">❯</button>
+                </div>
+                <div class="carousel-dots project-dots"></div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <h2 class="animate-on-scroll">Publications</h2>
+                <div class="bento-grid">
+                    <a href="https://ieeexplore.ieee.org/document/10053158" target="_blank"
+                        class="bento-card animate-on-scroll"
+                        style="grid-column: span 2; border-left: 4px solid var(--accent-color); text-decoration: none; color: inherit; cursor: pointer;">
+                        <h3>Aspect-Based Sentiment Classification Using Deep Memory Network</h3>
+                        <h4>Research Paper</h4>
+                        <p>Developed a deep memory network with neural attention for aspect-level sentiment analysis,
+                            achieving 15 times faster performance and higher accuracy than LSTM and SVM.</p>
+                        <div style="margin-top: 1.5rem;">
+                            <span class="skill-tag">Deep Learning</span>
+                            <span class="skill-tag">NLP</span>
+                            <span class="skill-tag">Neural Networks</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Connect Section (Contact Form Only) -->
+        <section id="connect">
+            <div class="container">
+                <h2 class="animate-on-scroll">Connect</h2>
+                <div class="bento-grid" style="grid-template-columns: 1fr;">
+                    <!-- Connect Widget / Contact Form -->
+                    <div class="bento-card animate-on-scroll contact-card"
+                        style="background: #f5f5f7; color: var(--text-primary); display: flex; flex-direction: column; justify-content: center; min-height: 400px; position: relative; overflow: hidden;">
+
+                        <div class="form-content">
+                            <h3 style="color: var(--text-primary); margin-bottom: 2rem; text-align: center;">Let's
+                                Connect</h3>
+                            <form id="connect-form" class="contact-form" style="max-width: 600px; margin: 0 auto;">
+                                <div class="form-group floating-label">
+                                    <input type="text" id="name" name="name" placeholder=" " required>
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="form-group floating-label">
+                                    <input type="email" id="email" name="email" placeholder=" " required>
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="form-group floating-label">
+                                    <textarea id="message" name="message" placeholder=" " rows="4" required></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                                <button type="submit" id="submit-btn" class="cta-btn"
+                                    style="background: white; color: var(--accent-color); border: none; width: 100%; margin-top: 1rem; font-weight: bold; transition: all 0.3s ease;">
+                                    <span>Send Message</span>
+                                    <div class="btn-loader"></div>
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="success-message">
+                            <lottie-player id="success-anim"
+                                src="https://assets10.lottiefiles.com/packages/lf20_yom6uvgj.json"
+                                background="transparent" speed="1" style="width: 150px; height: 150px;"
+                                loop="false"></lottie-player>
+                            <h3>Message Sent!</h3>
+                            <p>Thanks for reaching out. I'll get back to you soon.</p>
+                            <button id="send-another" class="cta-btn"
+                                style="background: transparent; border: 1px solid var(--accent-color); color: var(--accent-color); margin-top: 1rem;">Send
+                                Another</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <main>
+            <!-- Info Section (Widgets) -->
+            <section id="info">
+                <div class="container">
+                    <h2 class="animate-on-scroll">More About Me</h2>
+                    <div class="bento-grid">
+                        <!-- GitHub Widget -->
+                        <div class="bento-card animate-on-scroll"
+                            style="background: #1d1d1f; color: white; justify-content: center; align-items: center; text-align: center; min-height: 250px;">
+                            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_S6vWEd.json"
+                                background="transparent" speed="1" style="width: 120px; height: 120px; margin: 0 auto;"
+                                loop autoplay></lottie-player>
+                            <h3 style="color: white;">Check out my Code</h3>
+                            <a href="https://github.com/AdithDAV" target="_blank" class="cta-btn"
+                                style="background: white; color: black; margin-top: 1rem;">Visit GitHub</a>
+                        </div>
+
+
+
+
+                        <!-- Location Widget -->
+                        <div class="bento-card animate-on-scroll"
+                            style="background: linear-gradient(135deg, #f5f5f7 0%, #e1e1e1 100%); justify-content: center; align-items: center; text-align: center; min-height: 250px;">
+                            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_UgZWvP.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100px; margin: 0 auto;"
+                                loop autoplay></lottie-player>
+                            <h3>Based in</h3>
+                            <h4 style="color: var(--text-primary); font-weight: 600;">Florida</h4>
+                            <p style="font-size: 0.9rem; margin-top: 0.5rem; color: var(--text-secondary);">Open to
+                                Relocation</p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>&copy; 2025 Dharmesh Adith Varma Penmetsa.</p>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
