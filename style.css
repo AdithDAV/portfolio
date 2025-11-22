@@ -819,9 +819,11 @@ nav {
 
     /* Mobile Navigation */
     .hamburger {
-        display: block;
+        display: block !important;
         cursor: pointer;
-        z-index: 1001;
+        z-index: 10001;
+        margin-left: auto;
+        /* Push to right if flex behavior is weird */
     }
 
     .hamburger span {
@@ -830,7 +832,7 @@ nav {
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background-color: var(--text-primary);
+        background-color: #000000 !important;
     }
 
     .hamburger.active span:nth-child(2) {
